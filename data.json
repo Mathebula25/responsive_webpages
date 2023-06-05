@@ -1,0 +1,44 @@
+{
+    "user" : {
+        "fullName": "Mathebula Mahlori Achiever",
+        "photo" : "images/Mahlori.jpg"
+    },
+    "city" : {
+        "name" : "Beijing, China",
+        "photo" : "images/beijing.jpg",
+        "description" : "Beijing is the capital city of China and has a rich history that spans over 3,000 years. The city is famous for its ancient architecture, including the Great Wall of China, the Forbidden City, and the Temple of Heaven. In addition to its historical sites, Beijing is also home to modern landmarks like the iconic Bird's Nest Stadium and the CCTV Headquarters. The city is known for its delicious cuisine, including Peking duck and street food like jianbing and baozi. Beijing is a hub for Chinese art and culture, with many museums and galleries showcasing traditional and contemporary works. The city is also home to a thriving nightlife scenes with and entertainment venues. Finally, Beijing is renowned for its annual Spring Festival celebrations, which include dragon and lion dances, fireworks, and traditional temple fairs.."
+    },
+    "foreignLanguage" : {
+        "language" : "Chinese",
+        "description": "Chinese is a tonal language spoken by over a billion people worldwide. It has a complex writing system consisting of thousands of characters, each with its own unique meaning. The language is known for its elegant calligraphy and has several dialects, the most widely spoken being Mandarin.",
+        "phrases" : [{
+            "englishPhrase" : "Be not afraid of growing slowly, only of staying still",
+            "foreignLanguage" : "不怕慢, 就怕站"
+        },
+        {
+            "englishPhrase" : "Love whatever job one takes up",
+            "foreignLanguage" : "干一行，爱一行"
+        },
+        {
+            "englishPhrase" : "Without standards, no boundaries are set",
+            "foreignLanguage" : "无规矩不成方圆"
+        }]
+    },
+    "favouriteSubjects" : [
+        {
+            "name" : "Engineering Mathematics and Computing",
+            "description" : "Engineering mathematics includes differential equations, real and complex analysis (including vector and tensor analysis), approximation theory, Fourier analysis, potential theory, linear algebra and applied probability.",
+            "photo" : "images/mathematics and computing.jpeg"
+        },
+        {
+            "name" : "Structural Analysis",
+            "description" : " the prediction of structures' behavior when subjected to specified arbitrary external loads",
+            "photo" : "images/Structural analysis.jpeg"
+        },
+        {
+            "name" : "Project Management",
+            "description" : "It teaches with techniques usable by project managers to ensure that a projects is run smoothly",
+            "photo" : "images/project managemenyt.jpeg"
+        }
+    ]
+}

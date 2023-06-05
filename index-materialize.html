@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body class="c5e1a5 light-green lighten-3">
+    <div class="card-panel hoverable dcedc8 light-green lighten-4">
+        <div class="row">
+            <div class="col s12 l6">
+                <h1 class=" z-depth-4 center-align">{{data.user.fullName}}</h1>
+            </div>
+            <div class="col s12 l6"><img class="responsive-img circle" src="{{data.user.photo}}" alt="Profile Image"></div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col s12 l6">
+            <h2>Which city?</h2>
+            <img class="responsive-img" src="{{data.city.photo}}" alt="Beijing">
+        </div>
+        <div class="col s12 l6">
+            <h2> {{city.name}}</h2>
+            <div class="flow-text">{{data.city.description}}</div>
+        </div>
+    </div>
+
+
+    <br>
+    <div >
+        <h2>A foreign language</h2>
+        <table>
+            <tr class="flow-text collection-header">
+                <th>ENGLISH</th>
+                <th>CHINESE</th>
+            </tr>
+            {{#each data.foreignLanguage.phrases}}
+            <tr class="flow-text collection-item">
+                <td>{{englishPhrase}}</td>
+                <td>{{foreignLanguage}}</td>
+            </tr>
+            {{/each}}
+        </table>
+    </div>
+    <br>
+
+    <div >
+        <h2>Favourite subjects</h2>
+    </div>
+
+    <div >
+        {{#each data.favouriteSubjects}}
+        <div class="row">
+            <div class="col s4">
+                <img class="responsive-img" src="{{photo}}" alt="image" width="250">
+            </div>
+            <div class="col s4 flow-text">
+                {{name}} :
+                <div class="flow-text">
+                    {{description}}
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+    <br>
+
+
+
+    <section>
+        <a href="index.html" class="waves-effect waves-light btn-small">main-page Web</a>
+    </section>
+</body>
+
+</html>
