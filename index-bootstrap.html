@@ -76,22 +76,18 @@
         <h2>Favourite subjects</h2>
     </div>
 
-    <div class="container text-justify">
+    <div class="container text-center">
         <div class="row">
             {{#each data.favouriteSubjects}}
-            <div class="row">
-                <div class="col d-inline p-2 text-bg-primary ">
-                    <img src="{{photo}}" class="img-fluid" alt="image" width="250">
-                </div>
-                <div class="col d-inline p-2 text-bg-primary">
-                    {{name}} :
-                    <div>
-                        {{description}}
-                    </div>
-                </div>
-            </div>
-            {{/each}}
-        </div>
+            <div class="col-md d-inline p-2 text-bg-primary">
+                <img src="{{photo}}" class="img-fluid" alt="image" width="250">
+          </div>
+          <div class="col-md d-inline p-2 text-bg-primary">
+            {{name}} :
+            {{description}}
+          </div>
+          {{/each}}
+
 
 
 
